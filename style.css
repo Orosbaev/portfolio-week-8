@@ -1,0 +1,268 @@
+
+:root {
+    --accent: #1142e2;
+    --accent-light: #15ccfa;
+    --pure-white: #fff;
+    --port: rgb(136, 124, 124);
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*, 
+*::before,
+*,::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Serif Display', serif;
+    color: var(--accent);
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px; 
+}
+
+.header {
+    background-color: var(--accent);
+}
+
+.header a {
+    color: var(--pure-white);
+    text-decoration: none;
+}
+
+.header-nav {
+  padding: 11px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+    width: 20%;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+
+.header-menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.header-menu-link {
+    font-size: 16px;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.header-menu-link:hover {
+    background-color: var(--accent-light);
+}
+
+.intro {
+  padding: 60px 0;
+}
+
+.intro-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.intro-left {
+    width: 30%;
+}
+
+.intro-img {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+}
+
+.intro-right {
+    width: 60%;
+}
+.intro-right h1 {
+    margin: 0 0 15px;
+    color: #f73b2e;
+}
+
+.intro-right h3 {
+    margin: 0 0 20px;
+    color: #ff3b2d;
+}
+
+.intro-right p {
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+}
+.section-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contacts {
+    margin-bottom: 60px;
+}
+.contacts ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.contacts li {
+    font-weight: bold;
+}
+
+.contacts img {
+    width: 20px;
+    height: 10px;
+}
+.skills {
+    color: var(--pure-white);
+    background-color: var(--accent);
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.skills ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 20px;
+}
+
+.skills li {
+    padding: 10px 25px;
+    background-color: var(--accent-light);
+    border-radius: 3px;
+}
+
+.code-example {
+   text-align: center;
+}
+.code-example p {
+    font-weight: bold;
+}
+.code-example pre {
+    width: 50%;
+    margin: 0 auto;
+    background-color: var(--accent);
+    text-align: left;
+    color: var(--pure-white);
+    font-size: 15px;
+    border-radius: 10px;
+}
+.code-example b {
+    font-weight: bolder;
+    color: black;
+}
+
+.grid-form {
+    background-color: var(--accent);
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 300px);
+    grid-column-gap: 25px;
+    grid-row-gap: 15px;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    padding: 40px;
+    border-radius: 7px;
+}
+.portfolio {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.rad {
+    border-radius: 7px;
+}
+.form {
+    background-color: var(--accent-light);
+    color: var(--pure-white);
+}
+
+.links {
+    background-color: var(--accent-light);
+    color: var(--pure-white);
+}
+
+.lists {
+    background-color: var(--accent-light);
+    color: var(--pure-white);
+}
+.form-img {
+    width: 300px;
+    height: 200px;
+    padding: 15px;
+}
+
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(198, 29, 250);
+    border-radius: 4px;
+}
+
+.shirt {
+    color: var(--pure-white);
+}
+
+.languages-ul {
+    text-align: center;
+    background-color: var(--accent);
+    color: var(--pure-white);
+    width: 20%;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.languages-section li {
+    list-style: none;
+}
+.education-section {
+    padding: 150px;
+}
+
+.education-ul {
+    margin: 0 auto;
+    text-align: center;
+    background-color: brown;
+    width: 50%;
+    padding: 50px;
+    color: var(--pure-white);
+    border-radius: 20px;
+}
+
+.education-section li {
+    list-style: none;
+    padding: 5px;
+}
